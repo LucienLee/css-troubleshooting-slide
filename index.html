@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title>CSS 疑難除錯</title>
+
+	<meta name="description" content="拐了你的設計師寫扣以後，你要怎麼對人家負責">
+	<meta name="author" content="Lucien Lee">
+
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<link rel="stylesheet" href="css/reveal.min.css">
+	<link rel="stylesheet" href="css/theme/webdev.css" id="theme">
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+
+	<link rel="stylesheet" href="css/print/paper.css" type="text/css" media="print">
+	<!--[if lt IE 9]>
+	<script src="lib/js/html5shiv.js"></script>
+	<![endif]-->
+	<style>
+		.reveal  .rev-white{
+			color: #fff;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div class="reveal">
+		<!-- Any section element inside of this container is displayed as a slide -->
+		<div class="slides">
+			<!-- 前情提要 -->
+			<section>
+				<h2>拐了你的設計師寫扣以後</h2>
+				<h2>你要怎麼對人家負責？</h2>
+				<h2>
+					<small>淺談 CSS 疑難除錯</small>
+				</h2>
+				
+				<p class="leader">
+					<small>Lucien Lee</small>
+				</p>
+			</section>
+			<section>
+				<section data-markdown="markdown/troubleshoot/me.md"></section>
+			</section>
+			<section>
+				<section>
+					<h1>前情提要</h1>
+				</section>
+				<section data-background="http://d13pix9kaak6wt.cloudfront.net/background/evenwu_1330965027_55.jpg">
+					<div class="row">
+						<div class="span4 offset3">
+							<h2 class="rev-white">Even Wu</h2>
+							<p class="rev-white fragment">@JSDC</p>		
+						</div>
+					</div>
+				</section>
+
+				<section data-background="../images/speech/even-silde.png"></section>
+				<section data-background="../images/speech/even-summary.png" data-background-size="contain"></section>
+				<section data-background="../images/speech/even-motivate.png"></section>
+				<section data-background="http://farm5.staticflickr.com/4057/4336778225_83692a752f_b.jpg" alt="Colorful lights">
+					<h2>給他看見絢爛美好的CSS<span class="fragment">3</span></h2>
+				</section>
+				<section>
+					<h2>像是這樣…</h2>
+					<a class="jsbin-embed" href="http://jsbin.com/connecting/1/embed?output">JS Bin</a>
+				</section>
+				<section>
+					<p data-height="600" data-theme-id="0" data-slug-hash="qpJxo" data-user="marshall_993" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/maxwbailey/pen/qpJxo'>PURE CSS HTC8S</a> by Scott Marshall (<a href='http://codepen.io/marshall_993'>@marshall_993</a>) on <a href='http://codepen.io'>CodePen</a></p>
+					<script async src="http://codepen.io/assets/embed/ei.js"></script>
+				</section>
+				<section>
+					<p data-height="600" data-theme-id="0" data-slug-hash="bprEf" data-user="MichaelArestad" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/maxwbailey/pen/bprEf'>Zig Zag Zazziness</a> by Michael Arestad (<a href='http://codepen.io/MichaelArestad'>@MichaelArestad</a>) on <a href='http://codepen.io'>CodePen</a></p>
+					<script async src="http://codepen.io/assets/embed/ei.js"></script>
+				</section>
+				<section data-background="../images/speech/even-great.png">
+					<div class="row">
+						<div class="span3 offset4">
+						<p>設計師</p>	
+						</div>
+					</div>	
+				</section>
+				<section data-markdown="markdown/troubleshoot/previously.md"></section>
+				<section data-background="../images/speech/matchmaker.jpg">
+					<h3>作為媒人的我們</h3>
+					<br><br><br><br><br><br><br><br><br><br><br>
+				</section>
+				<section data-markdown="markdown/troubleshoot/previously2.md"></section>
+				<section class="title">
+					<h2>拐了你的設計師寫扣以後</h2>
+					<h2>你要怎麼對人家負責？</h2>
+					<h2>
+						<small>
+							<span class="fragment highlight-blue">淺談 CSS 疑難除錯</span>
+						</small>
+					</h2>
+				</section>
+			</section>
+			
+			<!-- 大綱 -->
+			<section>
+				<section data-markdown="markdown/troubleshoot/agenda.md"></section>
+			</section>
+			<!-- 1 -->
+			<section>
+				<section data-markdown="markdown/troubleshoot/float.md"></section>
+			</section>
+			<!-- 2 -->
+			<section>
+				<section data-markdown="markdown/troubleshoot/inline.md"></section>				
+			</section>
+			<!-- 3 -->
+			<section>
+				<section data-markdown="markdown/troubleshoot/100.md"></section>
+			</section>
+			<!-- 4 -->
+			<section>
+				<section data-markdown="markdown/troubleshoot/position.md"></section>
+			</section>
+			<!-- 5 -->
+			<section>
+				<section data-markdown="markdown/troubleshoot/zindex.md"></section>
+			</section>
+			<!-- 6 -->
+			<section>
+				<section data-markdown="markdown/troubleshoot/tool.md"></section>
+				<section>
+					<p data-height="600" data-theme-id="0" data-slug-hash="kdbAa" data-user="anon" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/anon/pen/kdbAa'>Zig Zag Zazziness</a> by Michael Arestad (<a href='http://codepen.io/MichaelArestad'>@MichaelArestad</a>) on <a href='http://codepen.io'>CodePen</a></p>
+					<script async src="http://codepen.io/assets/embed/ei.js"></script>
+				</section>
+			</section>
+			<section>
+				<section data-markdown="markdown/troubleshoot/conclusion.md"></section>
+			</section>
+			<section>
+				<section>
+					<h2>特別感謝</h2>
+					<ul>
+						<li><a href="https://www.facebook.com/hackNTU">HackNTU 活動團隊</a></li>
+						<li><a href="https://www.facebook.com/evenwu">Even Wu</a></li>
+						<li><a href="https://www.facebook.com/johnsonliang">Johnson Liang</a></li>
+					</ul>
+				</section>
+				<section data-background="http://farm1.staticflickr.com/62/202872717_a8a4799419_b.jpg"></section>
+				<section>
+					<h2>Contact Me</h2>
+					<p>lkiral7903@gmail.com</p>
+					<p>Blog: <a href="http://selfecy.com">selfecy.com</a></p>
+					<img src="images/speech/fb.png?borderless" width="45px" style="margin:0;">
+					<a href="https://www.facebook.com/lucien.leee">lucien.leee</a>
+					<img src="images/speech/linkedin_icon.png?borderless" width="45px" style="margin:0;"><a href="http://tw.linkedin.com/in/lucienlee/">lucienlee</a>
+				</section>
+			</section>
+		</div>
+	</div>
+
+	<script src="lib/js/head.min.js"></script>
+	<script src="js/reveal.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="plugin/jsbin/jsbin.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<!--<script src="plugin/leap/leap.js"></script>-->
+</body>
+</html>
