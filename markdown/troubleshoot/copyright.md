@@ -1,13 +1,4 @@
-CSS troubleshooting
-======
-
-##About
-
-This is the slide I talked in HackNTU first meet-up.
-
-
-
-##Picture Source
+##圖片來源
 
 - 部分投影片來自Even Wu[如何教設計師前端技術](https://speakerdeck.com/evenwu/ru-he-jiao-she-ji-shi-qian-duan-ji-shu)
 - 電影食神－莫文蔚
@@ -19,11 +10,3 @@ This is the slide I talked in HackNTU first meet-up.
 - [layout](http://www.flickr.com/photos/xavierpics/8821681386/)
 - [Colorful lights](http://www.flickr.com/photos/pagedooley/4336778225/)
 - [Q&A](http://www.flickr.com/photos/dullhunk/202872717/) 
-
-##theme
-
-From [mrorz](http://mrorz.github.io)
-
----
-
-Reveal.js is a copyrighted work by Hakim El Hattab, MIT licensed.
